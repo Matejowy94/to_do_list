@@ -1,0 +1,100 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    background-color: aquamarine;
+    background-image: linear-gradient(to bottom right, rgb(116, 155, 228), rgb(106, 248, 106));
+    background-repeat: no-repeat;
+    
+    height: max;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.box{
+    background-color: rgba(128, 128, 128, 0.199);
+    width: 30vw;
+    display: block;
+    height: max-content;
+    margin: 30px;
+}
+h1{
+   
+    color: aliceblue;  
+    text-align: center;
+}
+h5{
+   
+    color: aliceblue;  
+    font-size: 12px;
+    font-weight: lighter;
+    margin: 5px 30px;
+}
+.typetext{
+    margin: 20px;
+    display: flex;
+}
+ul{
+    color: aliceblue;
+    list-style: none;
+    margin: 5px 20px;
+    padding: 0;
+}
+.cross{
+    color: rgb(250, 141, 141);
+    border: none;
+    background-color: rgba(240, 248, 255, 0.295);
+    font-size: large;
+    padding: 5px 10px;
+    margin: inherit;
+}
+.delete{
+    display: none;
+}
+#inputText{
+    overflow: auto;
+}
+#submitButton{
+    background-color: rgb(223, 157, 157);
+    
+}
+span{
+    color: aliceblue;
+}
+
+.done{
+    background-color: rgb(122, 230, 122);
+}
+li{
+    border: solid rgba(240, 248, 255, 0.295);
+padding: inherit;
+margin: 2px;
+background-color: unset;
+overflow-wrap: break-word;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 399px){
+    .box{
+        width: 70vw;
+    }
+    }
+
+@media only screen and (min-width: 400px) and (max-width: 599px){
+    .box{
+        width: 60vw;
+    }
+    }
+
+@media only screen and (min-width: 600px) and (max-width: 661px){
+    .box{
+        width: 50vw;
+    }
+    }
+@media only screen and (min-width: 660px) and (max-width: 1000px){
+    .box{
+        width: 40vw;
+    }
+    }
